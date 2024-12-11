@@ -26,7 +26,7 @@ To run the project, install the required Python packages:
 pip install yfinance pandas numpy matplotlib scipy
 ```
 
-Usage
+## Usage
 1. Clone the Repository
 ```bash
 git clone [https://github.com/yourusername/sma-crossover-strategy.git](https://github.com/Marcussena/python_algotrading.git)
