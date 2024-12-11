@@ -66,6 +66,15 @@ print(f"Optimized Parameters: {best_params}, Best Performance: {best_performance
 strategy.plot_sma()
 strategy.plot_performance()
 ```
+## Results
+The strategy achieved notable returns with optimized SMA lengths and leverage. However, it is essential to backtest strategies for different assets and market conditions to evaluate robustness.
 
+## Contributing
+Contributions are welcome! Feel free to fork the repository, report issues, or suggest enhancements.
+
+## Author
+Marcus Sena
+https://www.linkedin.com/in/marcus-sena-660198150/
+https://medium.com/@marcusmvls-vinicius
 
 
