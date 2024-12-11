@@ -73,8 +73,8 @@ The strategy achieved notable returns with optimized SMA lengths and leverage. H
 Contributions are welcome! Feel free to fork the repository, report issues, or suggest enhancements.
 
 ## Author
-Marcus Sena
-https://www.linkedin.com/in/marcus-sena-660198150/
-https://medium.com/@marcusmvls-vinicius
+- Marcus Sena
+- https://www.linkedin.com/in/marcus-sena-660198150/
+- https://medium.com/@marcusmvls-vinicius
 
 
