@@ -24,3 +24,48 @@ To run the project, install the required Python packages:
 
 ```bash
 pip install yfinance pandas numpy matplotlib scipy
+```
+
+Usage
+1. Clone the Repository
+```bash
+git clone https://github.com/yourusername/sma-crossover-strategy.git
+cd sma-crossover-strategy
+```
+2. Import and Initialize the Class
+```bash
+from smastrategy import SMAStrategy
+
+# Example: Microsoft (MSFT) stocks
+strategy = SMAStrategy(
+    ticker="MSFT",
+    SMA1=100,
+    SMA2=200,
+    start_date="2013-01-01",
+    end_date="2023-01-01",
+    leverage=1.0
+)
+```
+3. Fetch and Process Data
+```bash
+strategy.fetch_data()
+strategy.perform_calculation()
+strategy.perform_strategy()
+```
+4. Optimize Parameters
+```bash
+best_params, best_performance = strategy.optimize_strategy(
+    SMA1_range=(50, 150, 10),
+    SMA2_range=(200, 300, 10),
+    leverage_range=(1.0, 2.0, 0.1)
+)
+print(f"Optimized Parameters: {best_params}, Best Performance: {best_performance}")
+```
+5. Visualize Results
+```bash
+strategy.plot_sma()
+strategy.plot_performance()
+```
+
+
+
