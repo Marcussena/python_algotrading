@@ -29,7 +29,7 @@ pip install yfinance pandas numpy matplotlib scipy
 Usage
 1. Clone the Repository
 ```bash
-git clone https://github.com/yourusername/sma-crossover-strategy.git
+git clone [https://github.com/yourusername/sma-crossover-strategy.git](https://github.com/Marcussena/python_algotrading.git)
 cd sma-crossover-strategy
 ```
 2. Import and Initialize the Class
